@@ -1,0 +1,39 @@
+*{
+    box-sizing:border-box;
+
+}
+.border{
+    border:1px lightgrey; 
+}
+.header{
+    display:flex;
+    background-color: black;
+    color:white;
+    justify-content: space-between;
+}
+.second{
+    display:flex;
+    
+}
+.menuoption{
+    display:flex;
+    
+}
+    .menuoption li{
+        margin:3px 15px;
+        list-style: none;
+        
+    }
+    .menuoption li a{
+        text-decoration: none;
+        color: white;
+    }
+.buynow{
+    background-color: palevioletred;
+    color:white;
+    padding: 10px;
+}
+.buy{
+    margin:5px;
+}
+
